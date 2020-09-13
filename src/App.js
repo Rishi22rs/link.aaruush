@@ -9,7 +9,32 @@ function App() {
     <>
       <Navbar />
       <Carouselling />
-      <Card />
+      <div style={{ margin: "auto" }} className="row">
+        <div className="col-md-">
+          <Card />
+        </div>
+        <div className="col-md-">
+          <Card />
+        </div>
+        <div className="col-md-">
+          <Card />
+        </div>
+        <div className="col-md-">
+          <Card />
+        </div>
+        <div className="col-md-">
+          <Card />
+        </div>
+        <div className="col-md-">
+          <Card />
+        </div>
+        <div className="col-md-">
+          <Card />
+        </div>
+        <div className="col-md-">
+          <Card />
+        </div>
+      </div>
     </>
   );
 }

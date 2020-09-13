@@ -4,47 +4,25 @@ import "../Card.css";
 
 const Card = () => {
   return (
-    <aside class="profile-card">
-      <header>
-        <a target="_blank" href="#">
-          <img src={Back2} class="hoverZoomLink" />
-        </a>
-
-        <h1>John Doe</h1>
-
-        <h2>Better Visuals</h2>
-      </header>
-
-      <div class="profile-bio">
-        <p>
-          It takes monumental improvement for us to change how we live our
-          lives. Design is the way we access that improvement.
+    <div className="shadow p-3 mb-5 bg-white rounded card">
+      <img
+        className="card-img"
+        src={Back2}
+        alt="domain"
+        height={150}
+        width={300}
+      />
+      <div className="inner-container">
+        <h4 className="title">Mageffiece</h4>
+        <p className="description">
+          Consequat dolore minim sint ipsum veniam cupidatat labore anim irure.
+          Adipisicing pariatur voluptate.
         </p>
+        <button type="button" class="btn btn-light btni">
+          Explore more
+        </button>
       </div>
-
-      <ul class="profile-social-links">
-        <li>
-          <a target="_blank" href="https://www.facebook.com/creativedonut">
-            <i class="fa fa-facebook"></i>
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://twitter.com/dropyourbass">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/vipulsaxena">
-            <i class="fa fa-github"></i>
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://www.behance.net/vipulsaxena">
-            <i class="fa fa-behance"></i>
-          </a>
-        </li>
-      </ul>
-    </aside>
+    </div>
   );
 };
 
