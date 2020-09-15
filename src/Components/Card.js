@@ -1,26 +1,41 @@
-import React from "react";
-import Back2 from "../Graphics/background2.jpg";
+import React, { useEffect } from "react";
+import Back1 from "../Graphics/back.jpg";
 import "../Card.css";
+import aos from "aos";
+import "aos/dist/aos.css";
 
 const Card = () => {
+  useEffect(() => {
+    aos.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="shadow p-3 mb-5 bg-white rounded card">
+    <div
+      data-aos="fade-up"
+      className="shadow bg-white col-xl-2 col-md-3 col-sm-12 myRow"
+    >
       <img
         className="card-img"
-        src={Back2}
+        src={Back1}
         alt="domain"
         height={150}
         width={300}
       />
-      <div className="inner-container">
-        <h4 className="title">Mageffiece</h4>
+      <div className="inner-contain">
+        <h4 className="tit">Case-cade</h4>
         <p className="description">
           Consequat dolore minim sint ipsum veniam cupidatat labore anim irure.
           Adipisicing pariatur voluptate.
         </p>
-        <button type="button" class="btn btn-light btni">
-          Explore more
-        </button>
+        <div className="container">
+          <div className="row justify-content-around">
+            <button type="button" class="btn btn-light btni col-4">
+              Explore
+            </button>
+            <button type="button" class="btn btn-light btni col-4">
+              Mageffiece
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

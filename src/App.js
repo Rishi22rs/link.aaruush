@@ -1,37 +1,32 @@
 import React from "react";
-import Carouselling from "./Components/Carousel";
-import "./App.css";
 import Navbar from "./Components/Navbar";
 import Card from "./Components/Card";
+import Front from "./Components/Front";
+import "./App.css";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Carouselling />
-      <div style={{ margin: "auto" }} className="row">
-        <div className="col-md-">
+      <Front />
+      <div>
+        <div className="row justify-content-around">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
           <Card />
         </div>
-        <div className="col-md-">
+        <div className="row justify-content-around">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
           <Card />
         </div>
-        <div className="col-md-">
+        <div className="row justify-content-around">
           <Card />
-        </div>
-        <div className="col-md-">
           <Card />
-        </div>
-        <div className="col-md-">
-          <Card />
-        </div>
-        <div className="col-md-">
-          <Card />
-        </div>
-        <div className="col-md-">
-          <Card />
-        </div>
-        <div className="col-md-">
           <Card />
         </div>
       </div>

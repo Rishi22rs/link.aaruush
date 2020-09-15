@@ -1,13 +1,19 @@
-* {
-  padding: 0;
+.div {
+  width: 100%;
+  /* background-image: url("./Graphics/background.jpg"); */
+}
+.myContainer {
+  width: 100%;
   margin: 0;
 }
+
+/* ??????????????????????????? */
+
 .downArrow {
   position: absolute;
-  bottom: 20%;
-  left: 50%;
+  bottom: 5%;
+  left: 45%;
   z-index: 99;
-  filter: invert(100%);
 }
 .bounce {
   -moz-animation: bounce 3s infinite;
@@ -74,4 +80,3 @@
     transform: translateY(-15px);
   }
 }
-/* ///////////////////////// */

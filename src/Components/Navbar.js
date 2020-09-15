@@ -5,28 +5,16 @@ import logo from "../Graphics/logo.png";
 
 const Navbaring = () => {
   return (
-    <Navbar bg="white" expand="lg">
-      <img src={logo} alt="logo" height="50" width="100" />
-      <Navbar.Brand href="#home">Aaruush 2020</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
-          </NavDropdown>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <nav className="shadow bg-white navbar navbar-light sticky-top bg-light">
+      <a
+        className="navbar-brand"
+        style={{ color: "#203a43", fontSize: 30 }}
+        href="https://www.aaruush.org/"
+      >
+        <img src={logo} alt="logo" height="40" width="80" />
+        AARUUSH 2020
+      </a>
+    </nav>
   );
 };
 
