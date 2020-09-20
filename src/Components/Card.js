@@ -39,13 +39,13 @@ const Card = ({
           <div className="row justify-content-around">
             <button
               type="button"
-              class="btn btn-light col-12"
+              className="btn btn-light col-12"
               onClick={() => toggleHeight()}
             >
               {height == 0 ? "Expand" : "Collapse"}
             </button>
-            <Link to="/Details">
-              <button type="button" class="btn btni col-12">
+            <Link to="/Details" className="btn col-12">
+              <button type="button" className="btn btni col-12">
                 Mageffiece (Explore)
               </button>
             </Link>

@@ -14,7 +14,7 @@ const Front = () => {
               className="d-block w-100"
               src={back}
               alt="First slide"
-              height="550vh"
+              height={window.innerHeight - 150}
             />
             <Carousel.Caption>
               <h3>Cool Quote 1</h3>
@@ -26,7 +26,7 @@ const Front = () => {
               className="d-block w-100"
               src={back1}
               alt="Third slide"
-              height="550vh"
+              height={window.innerHeight - 150}
             />
             <Carousel.Caption>
               <h3>Cool Quote 2</h3>
@@ -38,7 +38,7 @@ const Front = () => {
               className="d-block w-100"
               src={back2}
               alt="Third slide"
-              height="550vh"
+              height={window.innerHeight - 150}
             />
             <Carousel.Caption>
               <h3>Cool Quote 3</h3>
