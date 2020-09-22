@@ -11,6 +11,7 @@
 .description {
   overflow: hidden;
   transition: 0.5s;
+  max-height: 100px;
 }
 .myRow {
   margin-top: 30px;

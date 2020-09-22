@@ -9,14 +9,9 @@ const Card = ({
   title = "Title Missing",
   description = "Consequat dolore minim sint ipsum veniam cupidatat labore anim irure.Adipisicing pariatur voluptate.",
 }) => {
-  const [height, setHeight] = useState(0);
   useEffect(() => {
     aos.init({ duration: 1000 });
   }, []);
-
-  const toggleHeight = () => {
-    height == 0 ? setHeight(100) : setHeight(0);
-  };
 
   return (
     <div
@@ -32,23 +27,15 @@ const Card = ({
       />
       <div className="inner-contain">
         <h4 className="tit">{title}</h4>
-        <p className="description" style={{ maxHeight: `${height}px` }}>
-          {description}
-        </p>
+        <p className="description">{description}</p>
         <div className="container">
           <div className="row justify-content-around">
-            <button
-              type="button"
-              className="btn btn-light col-12"
-              onClick={() => toggleHeight()}
-            >
-              {height == 0 ? "Expand" : "Collapse"}
-            </button>
-            <Link to="/Details" className="btn col-12">
-              <button type="button" className="btn btni col-12">
-                Mageffiece (Explore)
-              </button>
+            <Link to="/Details" className="btn btn-light col-6">
+              Explore
             </Link>
+            <button type="button" className="btn btni col-6">
+              Mageffiece
+            </button>
           </div>
         </div>
       </div>
