@@ -7,7 +7,7 @@ import Details from "./Details.js";
 const Routes = () => (
   <Router>
     <Route path="/" exact component={App} />
-    <Route path="/Details" exact component={Details} />
+    <Route path="/Details/:uid" exact component={Details} />
   </Router>
 );
 

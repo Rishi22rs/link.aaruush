@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import { Image } from "react-bootstrap";
-import back from "../Graphics/background.jpg";
+import background from "../Graphics/background.jpeg";
 import back1 from "../Graphics/background1.jpg";
 import back2 from "../Graphics/background2.jpg";
 import { Carousel } from "react-bootstrap";
-const Front = ({ title = "", show = false }) => {
+const Front = ({ title = "", show = false, image = background }) => {
   return (
     <>
-      <div className="div">
+      <div className="div" style={{ backgroundImage: "url(" + image + ")" }}>
         <h1 className="text-center my_title" style={{ fontSize: "70px" }}>
           {title}
         </h1>

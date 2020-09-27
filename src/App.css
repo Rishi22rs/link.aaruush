@@ -4,7 +4,6 @@ html {
 .div {
   width: 100%;
   height: 700px;
-  background-image: url("./Graphics/background.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,7 +37,7 @@ html {
 
 /* ??????????????????????????? */
 
-.downArrow {
+/* .downArrow {
   position: absolute;
   bottom: 5%;
   left: 45%;
@@ -108,4 +107,4 @@ html {
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
-}
+} */

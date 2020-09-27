@@ -1,14 +1,44 @@
 import React, { useEffect } from "react";
 import "../Detail.css";
-import back from "../Graphics/background.jpg";
-import { Carousel } from "react-bootstrap";
 import aos from "aos";
 import "aos/dist/aos.css";
 import Front from "./Front";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-const Details = () => {
+import Aeravision from "../Graphics/Posters/Aeravision.jpeg";
+import Dr from "../Graphics/Posters/Dr.jpeg";
+import Grand from "../Graphics/Posters/Grand.jpeg";
+import mag from "../Graphics/Posters/Mag.jpeg";
+import master from "../Graphics/Posters/master.jpeg";
+import Reinvent from "../Graphics/Posters/Reinvent.jpeg";
+import Sketchy from "../Graphics/Posters/Sketchy.jpeg";
+import Survival from "../Graphics/Posters/Survival.jpeg";
+import yuddhame from "../Graphics/Posters/yuddhame.jpg";
+import West from "../Graphics/Posters/West.jpeg";
+import Fandom from "../Graphics/Posters/Fandom.jpeg";
+import Online from "../Graphics/Posters/Online.png";
+import digital from "../Graphics/Posters/digital.png";
+import x from "../Graphics/Posters/x.png";
+
+const Details = ({ match }) => {
+  const imgs = [
+    [Reinvent, "#CFDCED"],
+    [Aeravision, "#FFB207"],
+    [Sketchy, "#EFDEB3"],
+    [West, "#4EC3CD"],
+    [Grand, "#039AAE"],
+    [Dr, "#F0ADAA"],
+    [digital, "#FEB339"],
+    [Survival, "#FEB339"],
+    [x, "#03989E"],
+    [Fandom, "#999275"],
+    [yuddhame, "#C7CBF0"],
+    [mag, "#C1C3C5"],
+    [Online, "#44D7DE"],
+    [master, "#D9D8DD"],
+  ];
+
   useEffect(() => {
     window.scrollTo(0, 0);
     aos.init({ duration: 1000 });
@@ -16,8 +46,12 @@ const Details = () => {
   return (
     <>
       <Navbar title="Name of the event" />
-      <Front title="" />
-      <div className="container my-container" data-aos="fade-up">
+      <Front title="" image={imgs[match.params.uid][0]} />
+      <div
+        className="container my-container"
+        style={{ backgroundColor: `${imgs[match.params.uid][1]}` }}
+        data-aos="fade-up"
+      >
         <p>
           Ex reprehenderit adipisicing sit ad labore enim proident aute aliqua
           proident cillum eiusmod non tempor. Pariatur incididunt commodo dolore

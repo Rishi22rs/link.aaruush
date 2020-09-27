@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 
 const Card = ({
+  uid = 1,
   title = "Title Missing",
   description = "Consequat dolore minim sint ipsum veniam cupidatat labore anim irure.Adipisicing pariatur voluptate.",
   image = Back1,
@@ -32,7 +33,7 @@ const Card = ({
         <p className="description">{description}</p>
         <div className="container">
           <div className="row justify-content-around">
-            <Link to="/Details" className="btn btn-light col-6">
+            <Link to={`/Details/${uid}`} className="btn btn-light col-6">
               Explore
             </Link>
             <button type="button" className="btn btni col-6">

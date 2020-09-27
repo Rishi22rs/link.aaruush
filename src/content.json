@@ -1,0 +1,50 @@
+[
+  {
+    "domain": "Electrizite",
+    "event": "Reinvent To Evolve",
+    "description": "Reinvent To Evolve will give the participants an opportunity to tinker and explore the world of electronic components. The presence of mind and nimble witted skills will be tested. Participate to get electrified!",
+    "rules": [
+      "Timer based quiz with 5 questions.",
+      "Enter your name",
+      "Question will be displayed.",
+      "Options will be displayed after 5 seconds. ",
+      "Choose the answer within the time given.",
+      "Submit the quiz after finishing all 5 questions."
+    ]
+  },
+  {
+    "domain": "Vimanaz",
+    "event": "Aerovision",
+    "description": "Aerovision gives a chance for you to use legos and design an aircraft of your own, virtually!",
+    "rules": [
+      "Each slot is for 10 minutes.",
+      "Google Meet link will be mailed to the participants a day prior.",
+      "Upon entering the Google meet link, the link for the game “Just Guess It!” will be provided.",
+      "The participant has to guess as many gibberish words and answer as many questions as possible within 2 minutes."
+    ]
+  },
+  {
+    "domain": "Architecture",
+    "event": "Sketchy Plot",
+    "description": "Sketchy Plot gives you the opportunity to test your observation and designing skills at the same time, along with time optimization.",
+    "rules": [
+      "Observation skills via quiz will be tested. ",
+      "A monument picture will be displayed for 15 seconds, observe it carefully. ",
+      "Questions will be asked based on the monument displayed before. ",
+      "Options will be displayed after 5 sec. ",
+      "Choose the correct option within the timeframe. ",
+      "Submit the quiz after attempting all the 5 questions. "
+    ]
+  },
+  {
+    "domain": "Robogyan",
+    "event": "West World",
+    "description": "Designed in a way to focus on the mechanical understanding, which will enhance the skill of designing and thus giving a hands on approach virtually, to instigate interest in the field of robotics.",
+    "rules": [
+      "The participants will individually play a themed quiz game.",
+      "Upon entering the meet link, the participants will have to direct on the link provided in the chat box. ",
+      "Within a time frame, the questions has to be answered to score the points.",
+      "The number of correct answers would be noted down by the host."
+    ]
+  }
+]

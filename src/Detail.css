@@ -13,10 +13,9 @@ body {
 }
 /*#fdfbfb → #ebedee*/
 .my-container {
-  background-color: #c6e9e3;
   padding: 30px 50px;
   margin-top: 0 30px 0 30px;
-  max-width: 900px;
+  max-width: 1200px;
   line-height: 3;
 }
 .heading {
