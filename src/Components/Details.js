@@ -4,29 +4,19 @@ import back from "../Graphics/background.jpg";
 import { Carousel } from "react-bootstrap";
 import aos from "aos";
 import "aos/dist/aos.css";
+import Front from "./Front";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Details = () => {
   useEffect(() => {
+    window.scrollTo(0, 0);
     aos.init({ duration: 1000 });
   }, []);
   return (
     <>
-      <div className="div">
-        <Carousel controls={false}>
-          <Carousel.Item interval={2000}>
-            <img
-              className="d-block w-100"
-              src={back}
-              alt="First slide"
-              height={window.innerHeight - 150}
-            />
-            <Carousel.Caption>
-              <h1>Case-Cade</h1>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div>
+      <Navbar title="Name of the event" />
+      <Front title="" />
       <div className="container my-container" data-aos="fade-up">
         <p>
           Ex reprehenderit adipisicing sit ad labore enim proident aute aliqua
@@ -89,6 +79,7 @@ const Details = () => {
           Contact here
         </a>
       </div>
+      <Footer />
     </>
   );
 };

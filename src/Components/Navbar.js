@@ -2,7 +2,7 @@ import React from "react";
 
 import logo from "../Graphics/logo.png";
 
-const Navbaring = () => {
+const Navbaring = ({ title = "" }) => {
   return (
     <nav className="shadow bg-white navbar navbar-light sticky-top bg-light">
       <a
@@ -11,7 +11,7 @@ const Navbaring = () => {
         href="https://www.aaruush.org/"
       >
         <img src={logo} alt="logo" height="30" width="60" />
-        AARUUSH 2020
+        {title}
       </a>
     </nav>
   );

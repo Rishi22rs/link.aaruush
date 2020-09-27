@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 const Card = ({
   title = "Title Missing",
   description = "Consequat dolore minim sint ipsum veniam cupidatat labore anim irure.Adipisicing pariatur voluptate.",
+  image = Back1,
+  domain = "Not available",
 }) => {
   useEffect(() => {
     aos.init({ duration: 1000 });
@@ -16,14 +18,14 @@ const Card = ({
   return (
     <div
       data-aos="fade-up"
-      className="shadow bg-white col-xl-2 col-md-3 col-sm-12 myRow"
+      className="shadow bg-white col-xl-4 col-md-4 col-sm-12 myRow card"
     >
       <img
         className="card-img"
-        src={Back1}
+        src={image}
         alt="domain"
-        height={150}
-        width={300}
+        // height={150}
+        // width={300}
       />
       <div className="inner-contain">
         <h4 className="tit">{title}</h4>
@@ -34,7 +36,7 @@ const Card = ({
               Explore
             </Link>
             <button type="button" className="btn btni col-6">
-              Mageffiece
+              {domain}
             </button>
           </div>
         </div>
