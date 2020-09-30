@@ -36,9 +36,7 @@ const Card = ({
             <Link to={`/Details/${uid}`} className="btn btn-light col-6">
               Explore
             </Link>
-            <button type="button" className="btn btni col-6">
-              {domain}
-            </button>
+            <div className="btni col-6">{domain}</div>
           </div>
         </div>
       </div>

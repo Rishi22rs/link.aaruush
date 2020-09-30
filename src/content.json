@@ -46,5 +46,167 @@
       "Within a time frame, the questions has to be answered to score the points.",
       "The number of correct answers would be noted down by the host."
     ]
+  },
+  {
+    "domain": "Machination",
+    "event": "Grand Theft Automation",
+    "description": "Designed to provide a proximate experience of technical insight to the machines and to apprehend the architecture of a machine. ",
+    "rules": [
+      "The participants will individually play a themed quiz game.",
+      "Upon entering the meet link, the participants will have to direct on the link provided in the chat box. ",
+      "Within a time frame, the questions has to be answered to score the points.",
+      "The number of correct answers would be noted down by the host."
+    ]
+  },
+  {
+    "domain": "Bluebook",
+    "event": "Dr. Mario",
+    "description": "Super Mario is back as Dr. Mario, set out on yet another Bio-adventure filled with crossword, DNAs, and case files for Dr. Mario to explore and diagnose the princess.",
+    "rules": [
+      "Solving the crossword. ",
+      "Finding and sending the password. ",
+      "Timing (bonus) "
+    ]
+  },
+  {
+    "domain": "Digital Design",
+    "event": "D-IT",
+    "description": "Design can be art. Design can be simple. That’s why it’s so complicated. Enhance and Enable the chance to design your specs and ideas for the given case files.",
+    "rules": ["Pattern", "Attractiveness", "Time bonus"]
+  },
+  {
+    "domain": "Fundaz",
+    "event": "Survival Test",
+    "description": "Survival is not a big deal in this modern world with such great medical and technological advancement of human civilization. Does any know how to survive without this? So this will take you to post-apocalyptic earth where in very a few resources are there. Do you have it in you to survive.",
+    "rules": [
+      "Round 1(Rapid fire )",
+      "No of questions - 80 ",
+      "Time -5 mins",
+      "Type of questions - Basic maths and science ",
+      "Participants have to be present in the Google meet with theirs videos and Mics  ON .They aren't allowed to turn their videos OFF.",
+      "Google Form should be submitted within the stipulated time. If not submitted within time their response won't be recorded .",
+      "Participants aren't  allowed to leave the meeting while playing the round.",
+      "Participants can fill the Google form only once.",
+      "Participants are allowed to use pen and paper is required .",
+      "Participants are not allowed to use calculator .",
+      "Any unethical means to answer the questions will lead to disqualification ."
+    ]
+  },
+  {
+    "domain": "Xzone",
+    "event": "Online Battles",
+    "description": "The event focuses on engaging the participants in various fun activities and hence giving them a chance to relax and experience something different from their mundane college routine.",
+    "rules": [
+      "Participants are required to switch on their camera the whole time during the round, failing to which they will not be allowed to proceed with the round. ",
+      "They should have a proof of their identity and Aaruush registration with them.",
+      "If they get disconnected in between their remaining playing time will be noted and participants will be allowed to join back and play the game .",
+      "If a participant is caught performing some unethical activities he/she will be eliminated from the final round"
+    ]
+  },
+  {
+    "domain": "Praesentatio",
+    "event": "Fandom",
+    "description": "Designed in a way to focus on the mechanical understanding, which will enhance the skill of designing and thus giving a hands on approach virtually, to instigate interest in the field of robotics.",
+    "rules": [
+      "Scribble.io can be described in simple words as playing Pictionary virtually where maximum of 8 participants can play at a time. Each participant is given a total of 30 seconds. This game consists of two rounds giving each participant two chances.",
+      "In the beginning of 30 seconds three words will be displayed and the participant has to choose one of the words, then they have to draw the word chosen while the other players are watching him/her draw, and others have to guess the word chosen by the co-player.",
+      "By the end of the game certain points will be assigned to the players declaring who won.",
+      "Rules for Scribbl.io",
+      "Each game will have 2 rounds.",
+      "30 seconds will be given to each person to draw their word.",
+      "Only objects must be drawn to express the word.",
+      "Number of participants is 7",
+      "Game 2: Taboo:",
+      "In the game 'Taboo', we will have teams consisting of 2 players in each team.",
+      "A word will be provided on the screen with 5 taboo words given below and one of the teammates of a team should make the other team member guess the word without saying the 5 taboo words given on the card.",
+      "If they successfully manage to guess the correct word provided on the screen, then they get a point and they have an option of 'pass' if they aren't able to guess the word. Whichever team guesses the maximum number of words correctly within a minute will be promoted to the next round.",
+      "Rules for Taboo",
+      "Words given in the attached list must not be used, else the point is not counted.",
+      "No half or part of the word itself can be used while explaining it.",
+      "Rhyming words cannot be used.",
+      "1 minute will be given to each person to explain maximum number of words."
+    ],
+    "rules1": [
+      "In the game 'Taboo', we will have teams consisting of 2 players in each team.",
+      "A word will be provided on the screen with 5 taboo words given below and one of the teammates of a team should make the other team member guess the word without saying the 5 taboo words given on the card.",
+      "If they successfully manage to guess the correct word provided on the screen, then they get a point and they have an option of 'pass' if they aren't able to guess the word. Whichever team guesses the maximum number of words correctly within a minute will be promoted to the next round.",
+      "Rules for Taboo",
+      "Words given in the attached list must not be used, else the point is not counted.",
+      "No half or part of the word itself can be used while explaining it.",
+      "Rhyming words cannot be used.",
+      "1 minute will be given to each person to explain maximum number of words."
+    ]
+  },
+  {
+    "domain": "Yuddhame",
+    "event": "Delimiter-Dungeon",
+    "description": "To debunk the myth that programming is a skill reserved for the intellectual and boring, Delimiter Dungeon is a 4 round rodeo that tests the 4 main pillars of programming; knowledge, modularity, adaptability and complexity. Participant that manages to excel equally in all 4 aspects will be declared winner.",
+    "rules": [
+      "The event consists of 4 rounds.",
+      "The entire event will be conducted online via Google Meet.",
+      "Participants will have to wait for their turn to join their respective Google Meet.",
+      "Estimated timings will be intimated to participants before hand for their convenience.",
+      "The first round will be a verbal quick fire round, wherein participants will be asked short questions verbally. They have to answer each question as they come. Participants who answer the most questions correctly go through to the next round.",
+      "The second round will be a coding round done in pairs. All participants will be sorted out into pairs and asked to join the Google Meet together. Then they will be given two parts of a same coding question to solve individually. Once that's done, they will be given each other's code in other to solve a bigger question. Participants will be suggested to use certain IDEs and will have to be on screen share for the entire duration of the round.",
+      "The third round will also be a coding round, but individual. Each participant will be given a problem that has one or more ways of solving it. The participant has to give as many solutions as possible for their particular problem. The more the solutions offered the greater would be the chance to qualify for the next round.",
+      "The fourth and the final round is a coding round wherein each participant will be given a single question to solve. The only goal of this round is to achieve the lowest time and space complexity possible for that given problem. The participant who manages to do that while maintaining the integrity of the code will be announced winner.",
+      "Plagiarism of no sort will be entertained throughout the event.",
+      "The participants will have to share their screen of Google Meet to maintain integrity.",
+      "Participants will be allowed to code in any language of their preference.",
+      "A set of IDEs will be suggested to participants well in advance.",
+      "In the case where no participants are able to complete the code, their logic will be evaluated."
+    ]
+  },
+  {
+    "domain": "Magefficie",
+    "event": "Political Quest",
+    "description": "Designed in a way to focus on the mechanical understanding, which will enhance the skill of designing and thus giving a hands on approach virtually, to instigate interest in the field of robotics.",
+    "rules": [
+      "The participants will individually play a themed quiz game.",
+      "Upon entering the meet link, the participants will have to direct on the link provided in the chat box. ",
+      "Within a time frame, the questions has to be answered to score the points.",
+      "The number of correct answers would be noted down by the host."
+    ]
+  },
+  {
+    "domain": "Online",
+    "event": "Crypto-O-Sutra",
+    "description": "Crypt-o-sutra is an online scavenger hunt in which participants will have to tackle 4 bewildering questions from a plethora of themes testing their wit and presence of mind at every step. Fastest person to get through all the questions will be declared the champion.",
+    "rules": [
+      "The event has 3 themes to choose from.",
+      "Each participant will have to solve 4 questions relating to the theme of their choice.",
+      "The 3 themes of the event are: - ○ Movies/TV Shows ○ Sports ○ Politics/History",
+
+      "Participants have to take part individually.",
+
+      "At the beginning, each participant will be given a question in the form of an unlocked PDF which will contain certain clues.",
+
+      "Participants have to crack the clues and find the answer.",
+
+      "The correct answer will help unlock the next question which will be given in the form of a locked (encrypted) PDF.",
+      "The participants have to enter the answer in small letters without any space.",
+
+      "Each subsequent PDF will be given to the participants only after they provide the correct answer.",
+
+      "The clues will be in the form of Images, Videos, Texts and Audios."
+    ]
+  },
+  {
+    "domain": "Konstruktion",
+    "event": "Master Builder",
+    "description": "Today’s real estate industry requires construction plans of every minute detail. Budget planning, innovation, adaptable structural designs are other important aspects. Konstruktion brings you the ultimate planning event where in you get the opportunity to test aspiring civil engineers in their own forte.",
+    "rules": [
+      "Round 1(Rapid fire )",
+      "No of questions - 80 ",
+      "Time -5 mins",
+      "Mode -Google Form ",
+      "Participants have to be present in the Google meet with theirs videos and Mics  ON .They aren't allowed to turn their videos OFF.",
+      "Google Form should be submitted within the stipulated time. If not submitted within time their response won't be recorded .",
+      "Participants aren't  allowed to leave the meeting while playing the round.",
+      "Participants can fill the Google form only once.",
+      ".Participants are allowed to use pen and paper is required .",
+      "Participants are not allowed to use calculator .",
+      "Any unethical means to answer the questions will lead to disqualification ."
+    ]
   }
 ]

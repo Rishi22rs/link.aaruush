@@ -20,6 +20,8 @@
 }
 .btni {
   color: white;
+  text-align: center;
   background-color: #440b1c;
   padding: 7px;
+  border-radius: 5px;
 }

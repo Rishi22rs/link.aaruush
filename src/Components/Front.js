@@ -1,13 +1,17 @@
-import React, { useEffect } from "react";
-import { Image } from "react-bootstrap";
+import React, { useEffect, useState } from "react";
 import background from "../Graphics/background.jpeg";
-import back1 from "../Graphics/background1.jpg";
-import back2 from "../Graphics/background2.jpg";
-import { Carousel } from "react-bootstrap";
+
 const Front = ({ title = "", show = false, image = background }) => {
+  const [opa, setOpa] = useState(1);
+  window.onscroll = function () {
+    setOpa(1 - document.documentElement.scrollTop / 700);
+  };
   return (
     <>
-      <div className="div" style={{ backgroundImage: "url(" + image + ")" }}>
+      <div
+        className="div"
+        style={{ backgroundImage: "url(" + image + ")", opacity: opa }}
+      >
         <h1 className="text-center my_title" style={{ fontSize: "70px" }}>
           {title}
         </h1>

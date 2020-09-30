@@ -91,7 +91,7 @@ function App() {
 
           <Card
             uid={8}
-            title="Online Battles"
+            title="Gambit's Guild"
             description="The event focuses on engaging the participants in various fun activities and hence giving them a chance to relax and experience something different from their mundane college routine."
             image={x}
             domain="Xzone"
@@ -105,7 +105,7 @@ function App() {
           />
           <Card
             uid={10}
-            title="Delimiter-Dingeon"
+            title="Delimiter-Dungeon"
             description="To debunk the myth that programming is a skill reserved for the intellectual and boring, Delimiter Dungeon is a 4 round rodeo that tests the 4 main pillars of programming; knowledge, modularity, adaptability and complexity. Participant that manages to excel equally in all 4 aspects will be declared winner."
             image={yuddhame}
             domain="Yuddhame"
