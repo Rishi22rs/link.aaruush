@@ -25,7 +25,7 @@ import content from "../content.json";
 
 const Details = ({ match }) => {
   const imgs = [
-    [Reinvent, "#CFDCED"],
+    [mag, "#C1C3C5"],
     [Aeravision, "#FFB207"],
     [Sketchy, "#EFDEB3"],
     [West, "#4EC3CD"],
@@ -36,7 +36,7 @@ const Details = ({ match }) => {
     [x, "#03989E"],
     [Fandom, "#999275"],
     [yuddhame, "#C7CBF0"],
-    [mag, "#C1C3C5"],
+    [Reinvent, "#CFDCED"],
     [Online, "#44D7DE"],
     [master, "#D9D8DD"],
   ];

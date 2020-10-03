@@ -1,15 +1,16 @@
 [
   {
-    "domain": "Electrizite",
-    "event": "Reinvent To Evolve",
-    "description": "Reinvent To Evolve will give the participants an opportunity to tinker and explore the world of electronic components. The presence of mind and nimble witted skills will be tested. Participate to get electrified!",
+    "domain": "Magefficie",
+    "event": "Political Quest",
+    "description": "Designed in a way to focus on the mechanical understanding, which will enhance the skill of designing and thus giving a hands on approach virtually, to instigate interest in the field of robotics.",
     "rules": [
-      "Timer based quiz with 5 questions.",
-      "Enter your name",
-      "Question will be displayed.",
-      "Options will be displayed after 5 seconds. ",
-      "Choose the answer within the time given.",
-      "Submit the quiz after finishing all 5 questions."
+      "Any unethical means to answer the questions will lead to disqualification.",
+      "Participants can fill the Google form only once.",
+      "Participants aren't allowed to leave the meeting while playing the round.",
+      "Google Form should be submitted within the stipulated time. If not submitted within time their response won't be recorded.",
+      "Participants have to be present in the Google meet with theirs videos and Mics ON .They aren't allowed to turn their videos OFF.",
+      "Time -20 mins",
+      "Mode -Google Form"
     ]
   },
   {
@@ -158,14 +159,16 @@
     ]
   },
   {
-    "domain": "Magefficie",
-    "event": "Political Quest",
-    "description": "Designed in a way to focus on the mechanical understanding, which will enhance the skill of designing and thus giving a hands on approach virtually, to instigate interest in the field of robotics.",
+    "domain": "Electrizite",
+    "event": "Reinvent To Evolve",
+    "description": "Reinvent To Evolve will give the participants an opportunity to tinker and explore the world of electronic components. The presence of mind and nimble witted skills will be tested. Participate to get electrified!",
     "rules": [
-      "The participants will individually play a themed quiz game.",
-      "Upon entering the meet link, the participants will have to direct on the link provided in the chat box. ",
-      "Within a time frame, the questions has to be answered to score the points.",
-      "The number of correct answers would be noted down by the host."
+      "Timer based quiz with 5 questions.",
+      "Enter your name",
+      "Question will be displayed.",
+      "Options will be displayed after 5 seconds. ",
+      "Choose the answer within the time given.",
+      "Submit the quiz after finishing all 5 questions."
     ]
   },
   {

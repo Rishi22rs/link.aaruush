@@ -33,10 +33,10 @@ function App() {
         <div id="cards" className="row justify-content-around">
           <Card
             uid={0}
-            title="Reinvent To Evolve"
-            description="Reinvent To Evolve will give the participants an opportunity to tinker and explore the world of electronic components. The presence of mind and nimble witted skills will be tested. Participate to get electrified!"
-            image={Reinvent}
-            domain="Electrizite"
+            title="Political Quest"
+            description="To analyse the leadership quality and fighting capacity of a person by giving him political crises."
+            image={mag}
+            domain="Magefficie"
           />
           <Card
             uid={1}
@@ -112,10 +112,10 @@ function App() {
           />
           <Card
             uid={11}
-            title="Political Quest"
-            description="To analyse the leadership quality and fighting capacity of a person by giving him political crises."
-            image={mag}
-            domain="Magefficie"
+            title="Reinvent To Evolve"
+            description="Reinvent To Evolve will give the participants an opportunity to tinker and explore the world of electronic components. The presence of mind and nimble witted skills will be tested. Participate to get electrified!"
+            image={Reinvent}
+            domain="Electrizite"
           />
           <Card
             uid={12}

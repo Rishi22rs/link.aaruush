@@ -10,7 +10,13 @@ const Navbaring = ({ title = "" }) => {
         style={{ color: "#203a43", fontSize: 20 }}
         href="https://www.aaruush.org/"
       >
-        <img src={logo} alt="logo" height="30" width="60" />
+        <img
+          src={logo}
+          alt="logo"
+          height="30"
+          width="51.6"
+          style={{ marginRight: 10, marginTop: -8 }}
+        />
         {title}
       </a>
     </nav>
