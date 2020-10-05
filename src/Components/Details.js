@@ -96,13 +96,13 @@ const Details = ({ match }) => {
           <a
             className="btni col-3"
             style={{ textAlign: "center" }}
-            href="https://meet.google.com/"
+            href={content[match.params.uid].link}
           >
             <b>Join Now</b>
           </a>
         </div>
         <h3>Have any doubt?</h3>
-        <a className="btni" href="https://meet.google.com/">
+        <a className="btni" href={`tel:${content[match.params.uid].phone}`}>
           Contact here
         </a>
       </div>

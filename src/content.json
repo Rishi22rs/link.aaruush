@@ -11,7 +11,9 @@
       "Participants have to be present in the Google meet with theirs videos and Mics ON .They aren't allowed to turn their videos OFF.",
       "Time -20 mins",
       "Mode -Google Form"
-    ]
+    ],
+    "link": "https://forms.gle/ACPUMvyAdAhWNikk7",
+    "phone": 7741925074
   },
   {
     "domain": "Vimanaz",
@@ -22,7 +24,9 @@
       "Google Meet link will be mailed to the participants a day prior.",
       "Upon entering the Google meet link, the link for the game “Just Guess It!” will be provided.",
       "The participant has to guess as many gibberish words and answer as many questions as possible within 2 minutes."
-    ]
+    ],
+    "link": "https://forms.gle/UwmGJb8eVxFcqsA79",
+    "phone": 6290977837
   },
   {
     "domain": "Architecture",
@@ -35,7 +39,9 @@
       "Options will be displayed after 5 sec. ",
       "Choose the correct option within the timeframe. ",
       "Submit the quiz after attempting all the 5 questions. "
-    ]
+    ],
+    "link": "https://forms.gle/HCAS7QCMPMwKnLm37",
+    "phone": 7001705819
   },
   {
     "domain": "Robogyan",
@@ -46,7 +52,9 @@
       "Upon entering the meet link, the participants will have to direct on the link provided in the chat box. ",
       "Within a time frame, the questions has to be answered to score the points.",
       "The number of correct answers would be noted down by the host."
-    ]
+    ],
+    "link": "https://forms.gle/ahwWgJtGB6PvpVF37",
+    "phone": 9769161999
   },
   {
     "domain": "Machination",
@@ -57,7 +65,9 @@
       "Upon entering the meet link, the participants will have to direct on the link provided in the chat box. ",
       "Within a time frame, the questions has to be answered to score the points.",
       "The number of correct answers would be noted down by the host."
-    ]
+    ],
+    "link": "https://forms.gle/gJnwQhxnWRnr9zk59",
+    "phone": 8939813933
   },
   {
     "domain": "Bluebook",
@@ -67,13 +77,17 @@
       "Solving the crossword. ",
       "Finding and sending the password. ",
       "Timing (bonus) "
-    ]
+    ],
+    "link": "https://forms.gle/MPPzGfmY3YJmeee57",
+    "phone": 3904
   },
   {
     "domain": "Digital Design",
     "event": "D-IT",
     "description": "Design can be art. Design can be simple. That’s why it’s so complicated. Enhance and Enable the chance to design your specs and ideas for the given case files.",
-    "rules": ["Pattern", "Attractiveness", "Time bonus"]
+    "rules": ["Pattern", "Attractiveness", "Time bonus"],
+    "link": "https://forms.gle/F4doXF1W14HSkiJfA",
+    "phone": 7675979496
   },
   {
     "domain": "Fundaz",
@@ -91,18 +105,22 @@
       "Participants are allowed to use pen and paper is required .",
       "Participants are not allowed to use calculator .",
       "Any unethical means to answer the questions will lead to disqualification ."
-    ]
+    ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSc5CMNey-_pNkOq0RHRxxkLCEalv2JAkEyN2P-YUmPHiOz2vw/viewform",
+    "phone": 7030222724
   },
   {
     "domain": "Xzone",
-    "event": "Online Battles",
+    "event": "Gambit's Guild",
     "description": "The event focuses on engaging the participants in various fun activities and hence giving them a chance to relax and experience something different from their mundane college routine.",
     "rules": [
       "Participants are required to switch on their camera the whole time during the round, failing to which they will not be allowed to proceed with the round. ",
       "They should have a proof of their identity and Aaruush registration with them.",
       "If they get disconnected in between their remaining playing time will be noted and participants will be allowed to join back and play the game .",
       "If a participant is caught performing some unethical activities he/she will be eliminated from the final round"
-    ]
+    ],
+    "link": "https://forms.gle/vHyjE2fksq93Rdwf7",
+    "phone": 7036140279
   },
   {
     "domain": "Praesentatio",
@@ -136,7 +154,9 @@
       "No half or part of the word itself can be used while explaining it.",
       "Rhyming words cannot be used.",
       "1 minute will be given to each person to explain maximum number of words."
-    ]
+    ],
+    "link": "https://forms.gle/mPG5YatRqkkj55Mk9",
+    "phone": 9479546416
   },
   {
     "domain": "Yuddhame",
@@ -156,7 +176,9 @@
       "Participants will be allowed to code in any language of their preference.",
       "A set of IDEs will be suggested to participants well in advance.",
       "In the case where no participants are able to complete the code, their logic will be evaluated."
-    ]
+    ],
+    "link": "https://forms.gle/iUn8Ws7LFQjLA4YT6",
+    "phone": 9029970648
   },
   {
     "domain": "Electrizite",
@@ -169,7 +191,9 @@
       "Options will be displayed after 5 seconds. ",
       "Choose the answer within the time given.",
       "Submit the quiz after finishing all 5 questions."
-    ]
+    ],
+    "link": "https://forms.gle/UT2rxNebX7bK7LDW8",
+    "phone": 7550263002
   },
   {
     "domain": "Online",
@@ -179,20 +203,16 @@
       "The event has 3 themes to choose from.",
       "Each participant will have to solve 4 questions relating to the theme of their choice.",
       "The 3 themes of the event are: - ○ Movies/TV Shows ○ Sports ○ Politics/History",
-
       "Participants have to take part individually.",
-
       "At the beginning, each participant will be given a question in the form of an unlocked PDF which will contain certain clues.",
-
       "Participants have to crack the clues and find the answer.",
-
       "The correct answer will help unlock the next question which will be given in the form of a locked (encrypted) PDF.",
       "The participants have to enter the answer in small letters without any space.",
-
       "Each subsequent PDF will be given to the participants only after they provide the correct answer.",
-
       "The clues will be in the form of Images, Videos, Texts and Audios."
-    ]
+    ],
+    "link": "https://forms.gle/J2FQ6VX2q6iqmwnc7",
+    "phone": 9971119245
   },
   {
     "domain": "Konstruktion",
@@ -210,6 +230,8 @@
       ".Participants are allowed to use pen and paper is required .",
       "Participants are not allowed to use calculator .",
       "Any unethical means to answer the questions will lead to disqualification ."
-    ]
+    ],
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLSdI2uWD-KFXAXsi4VZliBgGoCe6ogtIi9zdu3koQE24FDsphQ/viewform",
+    "phone": 3904
   }
 ]
