@@ -99,6 +99,7 @@ const Details = ({ match }) => {
             className="btni col-3"
             style={{ textAlign: "center" }}
             href={content[match.params.uid].link}
+            target="_blank"
           >
             <b>Join Now</b>
           </a>
