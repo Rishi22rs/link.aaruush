@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../Detail.css";
 import aos from "aos";
 import "aos/dist/aos.css";
@@ -24,6 +24,7 @@ import x from "../Graphics/Posters/x.png";
 import content from "../content.json";
 
 const Details = ({ match }) => {
+  const [isShowing, setIsShowing] = useState(false);
   const imgs = [
     [mag, "#C1C3C5"],
     [Aeravision, "#FFB207"],
@@ -45,6 +46,7 @@ const Details = ({ match }) => {
     window.scrollTo(0, 0);
     aos.init({ duration: 1000 });
   }, []);
+
   return (
     <>
       <Navbar title={content[match.params.uid].domain} />
@@ -102,9 +104,20 @@ const Details = ({ match }) => {
           </a>
         </div>
         <h3>Have any doubt?</h3>
-        <a className="btni" href={`tel:${content[match.params.uid].phone}`}>
+        <a
+          className="btni"
+          onClick={() => setIsShowing(!isShowing)}
+          href={`tel:${content[match.params.uid].phone}`}
+        >
           Contact here
         </a>
+        {isShowing ? (
+          <div class="alert alert-dark" role="alert">
+            Contact this number: {content[match.params.uid].phone}
+          </div>
+        ) : (
+          <></>
+        )}
       </div>
       <Footer />
     </>

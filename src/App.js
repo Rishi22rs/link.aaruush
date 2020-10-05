@@ -34,7 +34,7 @@ function App() {
           <Card
             uid={0}
             title="Political Quest"
-            description="To analyse the leadership quality and fighting capacity of a person by giving him political crises."
+            description="An opportunity for participants to showcase their leadership qualities and debating skills under political crisis situations."
             image={mag}
             domain="Magefficie"
           />
