@@ -3,6 +3,8 @@ import Navbar from "./Components/Navbar";
 import Card from "./Components/Card";
 import Front from "./Components/Front";
 import { BrowserRouter as Router } from "react-router-dom";
+import ReactGA from "react-ga";
+
 import "./App.css";
 import Footer from "./Components/Footer";
 
@@ -23,6 +25,8 @@ import x from "./Graphics/Posters/x.png";
 
 function App() {
   useEffect(() => {
+    ReactGA.initialize("UA-179702912-1");
+    ReactGA.pageview(window.location.pathname + window.location.search);
     window.scrollTo(0, 0);
   }, []);
   return (
