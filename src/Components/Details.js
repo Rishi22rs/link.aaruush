@@ -59,6 +59,7 @@ const Details = ({ match }) => {
         <h3>{content[match.params.uid].event}</h3>
         <p>
           {content[match.params.uid].description}
+          <hr />
           <h4>Rules</h4>
           {match.params.uid == 9 ? (
             <>
@@ -93,17 +94,37 @@ const Details = ({ match }) => {
             allowfullscreen
           ></iframe>
         </div> */}
+        <hr />
         <div className="row">
-          <h3 className="col-6">Join contest here...</h3>
+          <h3 className="col-xl-6 col-sm-12">Register to contest here...</h3>
           <a
-            className="btni col-3"
+            className="btni col-xl-3 col-sm-12"
             style={{ textAlign: "center" }}
             href={content[match.params.uid].link}
             target="_blank"
           >
-            <b>Join Now</b>
+            <b>Register Now</b>
           </a>
         </div>
+        <hr />
+        <b>
+          If you have already registered you will receive a mail shortly on your
+          registered email id.
+        </b>
+        <hr />
+        <div className="row">
+          <h3 className="col-12">Timeline:</h3>
+          <ul>
+            <li>8 Oct: 5pm-10pm</li>
+            <li>9 Oct: 1pm-10pm</li>
+            <li>10 Oct: 1pm-10pm</li>
+            <li>11 Oct: 1pm-10 pm</li>
+            <li>
+              12 Oct: 5pm-7pm <b>Result Declaration</b>
+            </li>
+          </ul>
+        </div>
+        <hr />
         <h3>Have any doubt?</h3>
         <a
           className="btni"

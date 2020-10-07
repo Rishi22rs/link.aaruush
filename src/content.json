@@ -13,7 +13,8 @@
       "Mode -Google Form"
     ],
     "link": "https://forms.gle/ACPUMvyAdAhWNikk7",
-    "phone": 7741925074
+    "phone": 7741925074,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Vimanaz",
@@ -26,7 +27,8 @@
       "The participant has to guess as many gibberish words and answer as many questions as possible within 2 minutes."
     ],
     "link": "https://forms.gle/UwmGJb8eVxFcqsA79",
-    "phone": 6290977837
+    "phone": 6290977837,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Architecture",
@@ -41,7 +43,8 @@
       "Submit the quiz after attempting all the 5 questions. "
     ],
     "link": "https://forms.gle/HCAS7QCMPMwKnLm37",
-    "phone": 7001705819
+    "phone": 7001705819,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Robogyan",
@@ -54,7 +57,8 @@
       "The number of correct answers would be noted down by the host."
     ],
     "link": "https://forms.gle/ahwWgJtGB6PvpVF37",
-    "phone": 9769161999
+    "phone": 9769161999,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Machination",
@@ -67,7 +71,8 @@
       "The number of correct answers would be noted down by the host."
     ],
     "link": "https://forms.gle/gJnwQhxnWRnr9zk59",
-    "phone": 8939813933
+    "phone": 8939813933,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Bluebook",
@@ -79,7 +84,8 @@
       "Timing (bonus) "
     ],
     "link": "https://forms.gle/MPPzGfmY3YJmeee57",
-    "phone": 7358255540
+    "phone": 7358255540,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Digital Design",
@@ -87,7 +93,8 @@
     "description": "Design can be art. Design can be simple. That’s why it’s so complicated. Enhance and Enable the chance to design your specs and ideas for the given case files.",
     "rules": ["Pattern", "Attractiveness", "Time bonus"],
     "link": "https://forms.gle/F4doXF1W14HSkiJfA",
-    "phone": 7675979496
+    "phone": 7675979496,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Fundaz",
@@ -107,7 +114,8 @@
       "Any unethical means to answer the questions will lead to disqualification ."
     ],
     "link": "https://docs.google.com/forms/d/e/1FAIpQLScm1MZL_sHwG07jU1Pr9T4qpjQ1S1647j1p1x0HgTvAl8aaWg/viewform",
-    "phone": 7030222724
+    "phone": 7030222724,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Xzone",
@@ -120,7 +128,8 @@
       "If a participant is caught performing some unethical activities he/she will be eliminated from the final round"
     ],
     "link": "https://forms.gle/vHyjE2fksq93Rdwf7",
-    "phone": 7036140279
+    "phone": 7036140279,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Praesentatio",
@@ -156,7 +165,8 @@
       "1 minute will be given to each person to explain maximum number of words."
     ],
     "link": "https://forms.gle/mPG5YatRqkkj55Mk9",
-    "phone": 9479546416
+    "phone": 9479546416,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Yuddhame",
@@ -178,7 +188,8 @@
       "In the case where no participants are able to complete the code, their logic will be evaluated."
     ],
     "link": "https://forms.gle/iUn8Ws7LFQjLA4YT6",
-    "phone": 9029970648
+    "phone": 9029970648,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Electrizite",
@@ -193,7 +204,8 @@
       "Submit the quiz after finishing all 5 questions."
     ],
     "link": "https://forms.gle/UT2rxNebX7bK7LDW8",
-    "phone": 7550263002
+    "phone": 7550263002,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Online",
@@ -212,7 +224,8 @@
       "The clues will be in the form of Images, Videos, Texts and Audios."
     ],
     "link": "https://forms.gle/J2FQ6VX2q6iqmwnc7",
-    "phone": 9971119245
+    "phone": 9971119245,
+    "meet": "https://meet.google.com/"
   },
   {
     "domain": "Konstruktion",
@@ -232,6 +245,7 @@
       "Any unethical means to answer the questions will lead to disqualification ."
     ],
     "link": "https://docs.google.com/forms/d/e/1FAIpQLSfXVe6Ot2r_FedDOzXsfWsv2e7kC2Kku__l-RckH56aRhZSvw/viewform",
-    "phone": 6383688719
+    "phone": 6383688719,
+    "meet": "https://meet.google.com/"
   }
 ]
